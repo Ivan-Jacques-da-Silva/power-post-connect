@@ -27,7 +27,7 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
               <Zap className="w-6 h-6 text-primary-foreground" />
             </div>
             <span className="font-display text-xl md:text-2xl font-bold text-gradient-electric">
-              VOLTRANS
+              ITR
             </span>
           </div>
 
