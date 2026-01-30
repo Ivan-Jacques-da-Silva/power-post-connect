@@ -12,7 +12,7 @@ export function Footer() {
                 <Zap className="w-6 h-6 text-primary-foreground" />
               </div>
               <span className="font-display text-2xl font-bold text-gradient-electric">
-                VOLTRANS
+                ITR
               </span>
             </div>
             <p className="text-muted-foreground max-w-sm">
@@ -75,7 +75,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2025 VOLTRANS. Todos os direitos reservados.</p>
+          <p>© 2025 ITR. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

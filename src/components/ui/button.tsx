@@ -9,13 +9,13 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_0_20px_hsl(200_100%_50%/0.3)] hover:shadow-[0_0_30px_hsl(200_100%_50%/0.5)]",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_0_20px_hsl(25_100%_50%/0.3)] hover:shadow-[0_0_30px_hsl(25_100%_50%/0.5)]",
         destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline: "border border-primary/50 bg-transparent text-primary hover:bg-primary/10 hover:border-primary",
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent/10 hover:text-accent",
         link: "text-primary underline-offset-4 hover:underline",
-        electric: "bg-gradient-to-r from-[hsl(200_100%_50%)] to-[hsl(220_100%_60%)] text-[hsl(220_20%_8%)] font-semibold shadow-[0_0_20px_hsl(200_100%_50%/0.3)] hover:shadow-[0_0_40px_hsl(200_100%_50%/0.6)] hover:scale-105",
+        electric: "bg-gradient-to-r from-[hsl(25_100%_50%)] to-[hsl(15_100%_45%)] text-[hsl(220_20%_8%)] font-semibold shadow-[0_0_20px_hsl(25_100%_50%/0.3)] hover:shadow-[0_0_40px_hsl(25_100%_50%/0.6)] hover:scale-105",
         energy: "bg-gradient-to-r from-[hsl(45_100%_55%)] to-[hsl(30_100%_50%)] text-[hsl(220_20%_8%)] font-semibold shadow-[0_0_20px_hsl(45_100%_55%/0.3)] hover:shadow-[0_0_40px_hsl(45_100%_55%/0.6)] hover:scale-105",
         whatsapp: "bg-[hsl(142_70%_45%)] text-white font-semibold hover:bg-[hsl(142_70%_40%)] shadow-[0_0_20px_hsl(142_70%_45%/0.4)] hover:shadow-[0_0_40px_hsl(142_70%_45%/0.6)] hover:scale-105",
       },
